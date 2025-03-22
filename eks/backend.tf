@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "TF-Bucket"
+    bucket         = "tf-bucket55"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
     use_lockfiles     = true
